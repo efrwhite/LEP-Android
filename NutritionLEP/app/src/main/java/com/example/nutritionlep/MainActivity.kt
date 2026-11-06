@@ -52,12 +52,12 @@ fun LanguageSelectionScreen(
             verticalArrangement = Arrangement.Top
         ) {
                 Image(
-                    painter = painterResource(id = R.drawable.project_1_logo),
+                    painter = painterResource(id = R.drawable.lep_logo),
                     contentDescription = "Nutrition Logo",
                     modifier = Modifier
                         .fillMaxWidth(0.6f)
                         .aspectRatio(1.5f)
-                        .offset(x = 23.dp, y = (0).dp)
+                        .offset(x = 0.dp, y = (0).dp)
                 )
 
             Spacer(modifier = Modifier.height(24.dp))

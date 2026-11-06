@@ -33,12 +33,12 @@ fun WelcomeScreen(
             Spacer(modifier = Modifier.weight(1f))
 
             Image(
-                painter = painterResource(id = R.drawable.project_1_logo),
+                painter = painterResource(id = R.drawable.lep_logo),
                 contentDescription = "Nutrition Logo",
                 modifier = Modifier
-                    .fillMaxWidth(0.7f)
+                    .fillMaxWidth(0.9f)
                     .aspectRatio(1.5f)
-                    .offset(x = 23.dp)
+                    .offset(x = 0.dp)
                     .offset(y = (-120).dp)
             )
 

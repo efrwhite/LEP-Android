@@ -31,7 +31,7 @@ fun SplashScreen(
             contentAlignment = Alignment.Center
         ) {
             Image(
-                painter = painterResource(id = R.drawable.project_1_logo),
+                painter = painterResource(id = R.drawable.lep_logo),
                 contentDescription = "Nutrition Logo",
                 modifier = Modifier
                     .size(200.dp)
